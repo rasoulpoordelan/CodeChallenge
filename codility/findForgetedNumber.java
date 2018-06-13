@@ -2,7 +2,7 @@ package com.onetechone.design.designpattern.codechallenge;
 
 import java.util.Arrays;
 
-public class findForgetedNumber {
+public class FindForgetedNumber {
 
 //  Write a function:
 //
