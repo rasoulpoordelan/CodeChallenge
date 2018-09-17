@@ -3,26 +3,6 @@ import java.util.*;
 
 public class SelectionSort{
     
-    public static Integer binarySearch(int[] list,int item) {
-        int low = 0;
-        int hight = list.length - 1;
-        while (low <= hight) {
-        int mid = low + hight;
-        int guess = list[mid];
-
-         if (guess == item) {
-            return mid;
-        }
-            if (guess > item) {
-                hight = mid - 1;
-            } else {
-                low = mid + 1;
-            }
-        }
-        return null;
-    }
-
-
     public static int[] selectionSort(int[] arr) {
         int[] newArr = new int[arr.length];
         int length = arr.length;
